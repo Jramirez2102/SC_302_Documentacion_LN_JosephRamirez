@@ -15,7 +15,7 @@
         <header th:fragment="~{layout/plantilla :: header}">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">N</a>
+                    <a class="navbar-brand" href="#">Arboles</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -25,21 +25,19 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="https://github.com/AndresS0103" target="_blank">GitHub</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
+                                    Secciones
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" th:href="@{/arboles/listado}">Arboles</a></li>
                                     <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled">Disabled</a>
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
@@ -56,13 +54,13 @@
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="https://i.pinimg.com/originals/33/81/2d/33812d369524b6baa12f989b68e65755.png" class="d-block w-100" alt="..." height="500">
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="https://www.nvknurseries.com/_ccLib/image/plants/DETA-3015.jpg" class="d-block w-100" alt="..." height="500">
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="https://i.pinimg.com/originals/3d/d3/97/3dd39788ac0256f8d8b94073aa9f2ece.jpg" class="d-block w-100" alt="..." height="500">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
